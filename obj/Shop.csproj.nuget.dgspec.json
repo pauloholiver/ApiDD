@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos\\Shop\\Shop.csproj": {}
+    "C:\\Users\\User\\Documents\\GitHub\\ApiDD\\Shop.csproj": {}
   },
   "projects": {
-    "C:\\Projetos\\Shop\\Shop.csproj": {
+    "C:\\Users\\User\\Documents\\GitHub\\ApiDD\\Shop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\Shop\\Shop.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\ApiDD\\Shop.csproj",
         "projectName": "Shop",
-        "projectPath": "C:\\Projetos\\Shop\\Shop.csproj",
+        "projectPath": "C:\\Users\\User\\Documents\\GitHub\\ApiDD\\Shop.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\Shop\\obj\\",
+        "outputPath": "C:\\Users\\User\\Documents\\GitHub\\ApiDD\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -38,6 +38,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
